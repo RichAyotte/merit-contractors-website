@@ -1,9 +1,11 @@
 {
-  "name": "merit-contractors",
+  "name": "merit-contractors-website",
   "version": "1.0.0",
   "description": "Merit Contractors Website",
-  "author": "Richard Ayotte <rich.ayotte@ayottesoftware.com>",
+  "author": "Richard Ayotte <rich@ayottesoftware.com>",
   "private": true,
+  "repository": "https://github.com/RichAyotte/merit-contractors-website.git",
+  "license": "MIT",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
