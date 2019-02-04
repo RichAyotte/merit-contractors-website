@@ -1,0 +1,37 @@
+{
+  "name": "merit-contractors",
+  "version": "1.0.0",
+  "description": "Merit Contractors Website",
+  "author": "Richard Ayotte <rich.ayotte@ayottesoftware.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "bootstrap-vue": "https://github.com/bootstrap-vue/bootstrap-vue.git#dev",
+    "csv-parse": "^4.3.0",
+    "nuxt-edge": "^2.4.0-25793285.36ca945d",
+    "rucksack-css": "^1.0.2",
+    "vue-scrollto": "^2.13.0",
+    "vue-tweet-embed": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "nuxt-imagemin": "^1.0.0",
+    "sharp": "^0.21.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
